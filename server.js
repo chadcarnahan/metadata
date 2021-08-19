@@ -18,8 +18,8 @@ app.post("/api/fileanalyse", (req, res) => {
     if (err) {
       res.status(400).send("Something went wrong");
     }
-    const { originalname, type, size } = req.file;
-    res.json({ name: originalname, type: type, size: size });
+    const { originalname, mimetype, size } = req.file;
+    res.json({ name: originalname, type: mimetype, size: size });
   });
 });
 
