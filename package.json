@@ -4,14 +4,13 @@
   "description": "API project for freeCodeCamp",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.16.4",
-    "multer": "^1.4.3",
-    "nodemon": "^2.0.12"
+    "multer": "^1.4.3"
   },
   "repository": {
     "type": "git",
